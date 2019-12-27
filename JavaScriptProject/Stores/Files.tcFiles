@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" version="14.0">
+	<children>
+		<child name="Book1_csv" key="{BEE370F4-3F3E-40FE-8908-182225CF7DCF}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="14.0" caption="Book1_csv" ID="{BEE370F4-3F3E-40FE-8908-182225CF7DCF}" FileName="Files\Book1.csv" Update="True" />
+		</child>
+		<child name="schema_ini" key="{5FD8470B-C59A-443D-8300-181862E12768}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="14.0" caption="schema_ini" ID="{5FD8470B-C59A-443D-8300-181862E12768}" FileName="Files\schema.ini" Update="True" />
+		</child>
+		<child name="Database1_accdb" key="{2C9AB73D-153A-4A91-9427-A01693001AD5}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="14.0" caption="Database1_accdb" ID="{2C9AB73D-153A-4A91-9427-A01693001AD5}" FileName="Files\Database1.accdb" Update="True" />
+		</child>
+		<child name="Database1_xlsx" key="{7FEA2DC6-65F2-47A4-9AD9-C6CDAB115B8F}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="14.0" caption="Database1_xlsx" ID="{7FEA2DC6-65F2-47A4-9AD9-C6CDAB115B8F}" FileName="Files\Database1.xlsx" Update="True" />
+		</child>
+	</children>
+</Root>

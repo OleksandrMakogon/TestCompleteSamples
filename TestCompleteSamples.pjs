@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{936C84FD-18E3-43C9-A9E2-6E79C39AC7FD}">
+	<children>
+		<child name="PythonProject" key="{9B42D006-B12B-4278-A88F-BEE8A025EA33}" path="PythonProject\PythonProject.mds" />
+		<child name="WebProject" key="{7BC80F7D-BA2B-42E5-A565-4FD94DF20375}" path="WebProject\WebProject.mds" />
+		<child name="JavaScriptProject" key="{56BF7404-2901-43F1-832D-23599BE3F7D1}" path="JavaScriptProject\JavaScriptProject.mds" />
+	</children>
+	<testItems key="{331288E7-0A45-4EA3-8680-1CD02406A70A}">
+		<children>
+			<testItem key="{9B42D006-B12B-4278-A88F-BEE8A025EA33}" enabled="True" timeout="0" stopOnError="False" description="" />
+			<testItem key="{7BC80F7D-BA2B-42E5-A565-4FD94DF20375}" enabled="True" timeout="0" stopOnError="False" description="" />
+			<testItem key="{56BF7404-2901-43F1-832D-23599BE3F7D1}" enabled="True" timeout="0" stopOnError="False" description="" />
+		</children>
+	</testItems>
+	<variables key="{E94849C5-C9F0-4F50-AC36-17C3E3371D40}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{58E01171-B2B8-48CE-B929-FEA6A99F1FB6}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>

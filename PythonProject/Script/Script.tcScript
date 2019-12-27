@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Notepad" key="{87411901-CEBD-4663-B823-986709C6B480}" path="Notepad.py" />
+		<child name="Constants" key="{740F5D43-9B62-4EB6-A2DC-3D6C5A8E89CA}" path="Constants.py" />
+		<child name="Tests" key="{DE0DF04C-5A33-4BDA-81A4-FFC3214831DB}" path="Tests.py" />
+	</children>
+</Root>

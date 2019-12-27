@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Notepad" key="{6B725015-E312-4F3C-8AD9-1EFBFF4A712C}" path="Notepad.js" />
+		<child name="Tests" key="{F3E5D006-3247-4EA9-A05E-0336863FBEFB}" path="Tests.js" />
+		<child name="Constants" key="{445F92F0-FFBA-4653-9C8A-9EFD52456D3F}" path="Constants.js" />
+		<child name="DataProvider" key="{99A213E7-E98F-43A5-8BBD-36D5B269A400}" path="DataProvider.js" />
+		<child name="Temp" key="{6057ECBE-A46D-4780-AEB9-3244C02FA887}" path="Temp.js" />
+	</children>
+</Root>

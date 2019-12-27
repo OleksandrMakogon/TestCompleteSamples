@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{9B42D006-B12B-4278-A88F-BEE8A025EA33}"/>
+			</Node>
+			<Node name="{56bf7404-2901-43f1-832d-23599be3f7d1}">
+				<Prp name="relpath" type="S" value="JavaScriptProject\JavaScriptProject.mds.tcLS"/>
+			</Node>
+			<Node name="{7bc80f7d-ba2b-42e5-a565-4fd94df20375}">
+				<Prp name="relpath" type="S" value="WebProject\WebProject.mds.tcLS"/>
+			</Node>
+			<Node name="{9b42d006-b12b-4278-a88f-bee8a025ea33}">
+				<Prp name="relpath" type="S" value="PythonProject\PythonProject.mds.tcLS"/>
+			</Node>
+			<Node name="envmngrlogs">
+				<Prp name="key" type="S" value="{50BA05BF-A59B-4563-A7F4-7C233B9386D0}"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{87D338FD-72F8-4D24-AA66-EA2A3C2453BC}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>
