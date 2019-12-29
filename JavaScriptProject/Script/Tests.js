@@ -19,7 +19,7 @@ function InputText(text){
 function EnterText(){
   throw new Error("User Exception.");
   dataProvider = DataProvider.getDataProvider()
-  query = "select * from Book1 where CaseName like 'EnterText%'"
+  query = "select * from Smoke where CaseName like 'EnterText%'"
   recSet = dataProvider.execute(query)    
   
   if(recSet == null || recSet.EOF){
@@ -40,7 +40,7 @@ function EnterText(){
 //@Smoke
 function EnterDigits(){
   dataProvider = DataProvider.getDataProvider()
-  query = "select * from Book1 where CaseName like 'EnterDigit%'"
+  query = "select * from Smoke where CaseName like 'EnterDigit%'"
   recSet = dataProvider.execute(query)    
   
   if(recSet.EOF){
@@ -61,7 +61,7 @@ function EnterDigits(){
 //@Regression
 function EnterText2(){
   dataProvider = DataProvider.getDataProvider()
-  query = "select * from Book2 where CaseName like 'EnterText%'"
+  query = "select * from Regression where CaseName like 'EnterText%'"
   recSet = dataProvider.execute(query)    
   
   if(recSet == null || recSet.EOF){
@@ -82,7 +82,7 @@ function EnterText2(){
 //@Regression
 function EnterDigits2(){  
   dataProvider = DataProvider.getDataProvider()
-  query = "select * from Book2 where CaseName like 'EnterDigit%'"
+  query = "select * from Regression where CaseName like 'EnterDigit%'"
   recSet = dataProvider.execute(query)    
   
   if(recSet.EOF){
