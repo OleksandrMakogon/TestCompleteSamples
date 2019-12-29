@@ -17,7 +17,7 @@ function InputText(text){
 //Test1: Input Text from DDT
 //@Smoke
 function EnterText(){
-  throw new Error("User Exception.");
+  //throw new Error("User Exception.");
   dataProvider = DataProvider.getDataProvider()
   query = "select * from Smoke where CaseName like 'EnterText%'"
   recSet = dataProvider.execute(query)    
