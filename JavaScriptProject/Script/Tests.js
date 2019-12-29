@@ -80,6 +80,7 @@ function EnterText2(){
 //Test4: Input Digits from DDT
 //@Regression
 function EnterDigits2(){
+  throw new Error("User Exception.");
   dataProvider = DataProvider.getDataProvider()
   query = "select * from Book2 where CaseName like 'EnterDigit%'"
   recSet = dataProvider.execute(query)    
