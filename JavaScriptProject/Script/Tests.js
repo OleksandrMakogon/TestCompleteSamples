@@ -17,6 +17,7 @@ function InputText(text){
 //Test1: Input Text from DDT
 //@Smoke
 function EnterText(){
+  throw new Error("User Exception.");
   dataProvider = DataProvider.getDataProvider()
   query = "select * from Book1 where CaseName like 'EnterText%'"
   recSet = dataProvider.execute(query)    
@@ -79,8 +80,7 @@ function EnterText2(){
 
 //Test4: Input Digits from DDT
 //@Regression
-function EnterDigits2(){
-  throw new Error("User Exception.");
+function EnterDigits2(){  
   dataProvider = DataProvider.getDataProvider()
   query = "select * from Book2 where CaseName like 'EnterDigit%'"
   recSet = dataProvider.execute(query)    
